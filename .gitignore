@@ -1,0 +1,9 @@
+# Historical seed files are large and were downloaded once from USGS.
+# Keep them local. The live trickle (later) is the only data that goes in git.
+data/raw/
+data/seed/
+*.duckdb
+.env
+__pycache__/
+.DS_Store
+*.partial
